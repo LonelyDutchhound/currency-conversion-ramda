@@ -1,0 +1,26 @@
+{
+  "name": "currency-converter-ramda",
+  "version": "1.0.0",
+  "description": "functional programming",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx babel-node index.js"
+  },
+  "keywords": [
+    "ramda",
+    "ramda-fantasy"
+  ],
+  "author": "LonelyDutchhound <lonely.dutchhound@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.5"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "ramda": "^0.27.0",
+    "ramda-fantasy": "^0.8.0"
+  }
+}
