@@ -9,7 +9,6 @@ const axios = require('axios');
         { price: 67 },
         { price: 1305 }
     ]; 
-    const BASE_CURRENCY = 'USD';
     const URL = 'https://currate.ru/api/';
     const API_KEY = 'e31b9731d25e18ddb6b7af5601b9be93';
     const CURRENCY_CONIG = [
@@ -46,4 +45,6 @@ const axios = require('axios');
     const totalPrices = R.ap([R.multiply(cartSum)], converterMap);
 
     const totalCartPrice = R.zipObj(totalCurrencies, totalPrices);
+
+    console.log(totalCartPrice);
 })();
